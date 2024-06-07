@@ -1,0 +1,74 @@
+{
+    "name": "Respiracion",
+    "maps": [
+        {
+            "name": "Respirar",
+            "id": "479d67b9-6a34-440c-a291-103f2d5fc927",
+            "actions": [
+                {
+                    "name": "Inspirar",
+                    "type": "Button",
+                    "id": "eed84a84-f7d3-4b0a-8be4-1727c76f99f7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Hold(duration=0.4)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Mantener",
+                    "type": "Button",
+                    "id": "768dea26-583b-4f33-a16c-16341144a3f0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Espirar",
+                    "type": "Button",
+                    "id": "89f132f3-bc6d-42cc-9772-e4c8c0132ccf",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2aab28fc-1a96-4936-9008-7d1b35a4e1d2",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Inspirar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6e1978a0-6b11-406c-be6e-5a9d4dc61300",
+                    "path": "<Mouse>/middleButton",
+                    "interactions": "Hold(duration=0.1,pressPoint=0.1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Mantener",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "91d1d889-8031-48a3-8088-f0104f4e41e7",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "Hold(duration=0.1,pressPoint=0.1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Espirar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

@@ -1,0 +1,45 @@
+{
+    "name": "UI_Controles",
+    "maps": [
+        {
+            "name": "NavegarUI",
+            "id": "9b622086-5f8b-4bb3-93e4-03d1281df92c",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "faa01a9d-32c8-4135-868b-ed7acfffa91e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f3a09d74-3167-4644-81bf-860e8f1cf50f",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "714d85af-f94c-4bdf-9397-87f61224cdb6",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

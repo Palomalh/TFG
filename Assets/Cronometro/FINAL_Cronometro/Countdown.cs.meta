@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8b1971d823596b24ead65c87577f1738
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - guia: {instanceID: 0}
+  - textCuenta: {instanceID: 0}
+  - aro: {instanceID: 0}
+  - inspirarAction: {fileID: 8319016324000883112, guid: bc146b0758fdfa545a8a9ff468610cb4, type: 3}
+  - expirarAction: {fileID: 5519360624048825962, guid: bc146b0758fdfa545a8a9ff468610cb4, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
