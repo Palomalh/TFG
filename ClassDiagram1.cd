@@ -1,0 +1,794 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ActivarMinijuego" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBSAAAAAACAAAAABAACIAAIAAAAAAAAIAAAAAAggCAg=</HashCode>
+      <FileName>Assets\ActivarMinijuego.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sound" Collapsed="true">
+    <Position X="6.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Audio\Sound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AudioManager" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAgAAAAAABEASAAAAAAAAAAgQAAAAEA=</HashCode>
+      <FileName>Assets\AudioManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canvas_GamesMenu" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAACCAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAQA=</HashCode>
+      <FileName>Assets\Canvas_GamesMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControladorJuego" Collapsed="true">
+    <Position X="15.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MBQAAAAAACIAAAAAAJAAAgIAEAAAAAAIAEAAAAAAiEA=</HashCode>
+      <FileName>Assets\ControladorJuego.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Countdown" Collapsed="true">
+    <Position X="18.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>fgaVEoiJAGgSEROQAASUIgJgiiUSiBwNAUgQAACGHEA=</HashCode>
+      <FileName>Assets\Cronometro\FINAL_Cronometro\Countdown.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmocionesPersonaje" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABAAQAACAEAAAIAEAAAgAAAAAAAIAAAAAIAAAAAAEA=</HashCode>
+      <FileName>Assets\Cronometro\FINAL_Cronometro\EmocionesPersonaje.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="@Respiracion" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABACAAAAACAAABAAACAAKBQBAAAAAGAEAAAgAAFQAAA=</HashCode>
+      <FileName>Assets\Cronometro\FINAL_Cronometro\Respiracion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dialogue" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Assets\Cronometro\Tutorial\Dialogue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialogueManager" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BARAAAAiACAAABAMBgAgAAAQAIAACAAAIABABAMAAEA=</HashCode>
+      <FileName>Assets\Cronometro\Tutorial\DialogueManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialogueTrigger" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Cronometro\Tutorial\DialogueTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="caidaPuente" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAgBCIQAAAAAAACAA=</HashCode>
+      <FileName>Assets\DepresionPlataformas\Scripts\caidaPuente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Contadores" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAEAAACBAAAAEAAgBAEQAAAAAAAAAAEAABEIEAEA=</HashCode>
+      <FileName>Assets\DepresionPlataformas\Scripts\Contadores.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControladorNiveles" Collapsed="true">
+    <Position X="17" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQADSAAUCQBAgAAAQAgAQqAChAAEAAJBBoAEAwADgA=</HashCode>
+      <FileName>Assets\DepresionPlataformas\Scripts\ControladorNiveles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Estrella" Collapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAiAgAMAADAAQAAAAAAAAAAAiQABAQAAABAA=</HashCode>
+      <FileName>Assets\DepresionPlataformas\Scripts\Estrella.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FollowScript" Collapsed="true">
+    <Position X="20.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAQAAYCABQAAEAAAgBAIAggAAAUAgQABhCAAQAIE=</HashCode>
+      <FileName>Assets\DepresionPlataformas\Scripts\FollowScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Llave" Collapsed="true">
+    <Position X="18.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAQAAAAAAAEAA=</HashCode>
+      <FileName>Assets\DepresionPlataformas\Scripts\Llave.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Moneda" Collapsed="true">
+    <Position X="3" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAiAgAMAADAAQAAAAAAAAAAAiQABAQAAABAA=</HashCode>
+      <FileName>Assets\DepresionPlataformas\Scripts\Moneda.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PulsadorScript" Collapsed="true">
+    <Position X="8.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GBQAAAQQEjAQABQAAAAoAAAAAgAAEAAAAAQQIAAAAAA=</HashCode>
+      <FileName>Assets\DepresionPlataformas\Scripts\PulsadorScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RotationTranslationAnimation" Collapsed="true">
+    <Position X="13.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAiAgAMAADAAQAAAAAAAAAAAiAABAQAAABAA=</HashCode>
+      <FileName>Assets\DepresionPlataformas\Scripts\RotationTranslationAnimation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialogueTriggerAnxiety" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAACQAAAAAAAAEAAIAABAAAAAIAAAAAAAADAA=</HashCode>
+      <FileName>Assets\DialogueTriggerAnxiety.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinDeJuego" Collapsed="true">
+    <Position X="15.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Assets\FinDeJuego.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FloatingText" Collapsed="true">
+    <Position X="17" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FloatingText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFX_AutoStopLoopedEffect" Collapsed="true">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAACAA=</HashCode>
+      <FileName>Assets\FX\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_AutoStopLoopedEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFX_Demo_New" Collapsed="true">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQgAAAACgAiAkAACgAAAwAIEAABEIAAAAIASiAKEA=</HashCode>
+      <FileName>Assets\FX\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_New.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFX_Demo_RandomDir" Collapsed="true">
+    <Position X="20.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FX\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDir.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFX_Demo_RandomDirectionTranslate" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAgAACAAAAAAAAEAAAAAAQAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FX\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFX_Demo_RotateCamera" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAIAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FX\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RotateCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFX_Demo_Translate" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAgAACAAAAAAAAGAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FX\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_Translate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFX_AutoDestructShuriken" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAACAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\FX\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoDestructShuriken.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFX_AutoRotate" Collapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAgAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\FX\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoRotate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFX_LightFlicker" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAoAAACEg=</HashCode>
+      <FileName>Assets\FX\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightFlicker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFX_LightIntensityFade" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIAACAAAIAQABAAAAgAAAAAAAAAAAAAgAAACAA=</HashCode>
+      <FileName>Assets\FX\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightIntensityFade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManagerConcentracion" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIAkBMEEAoAARIAgAAAAAAAAAAAEAAAgAAQ0AIAAEI=</HashCode>
+      <FileName>Assets\GameManagerConcentracion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpDialogue" Collapsed="true">
+    <Position X="20.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAACIAAAAAAAAAAAAQAAAAACAAAE=</HashCode>
+      <FileName>Assets\HelpDialogue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CharacterSkinController" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BARAAQAAACAAAAIAAAIAgAAAAAAAIAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Assets\Jammo-Character\Scripts\CharacterSkinController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovementInput" Collapsed="true">
+    <Position X="4.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIFAACASAAQAEAAAABQIABEAAAAJAIgQAAAAQEAAI=</HashCode>
+      <FileName>Assets\Jammo-Character\Scripts\MovementInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OldGUIExamplesCS" Collapsed="true">
+    <Position X="6.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAIAAEACAAEAgCgAAACAQAAAAAAAAAQAiAAAAAAAA=</HashCode>
+      <FileName>Assets\LeanTween\Examples\Archived\OldGUIExamplesCS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestingPunch" Collapsed="true">
+    <Position X="11.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAKAAAIAABAAAAAAAIAABCAAQAAAgAgAAAAA=</HashCode>
+      <FileName>Assets\LeanTween\Examples\Archived\TestingPunch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestingRigidbodyCS" Collapsed="true">
+    <Position X="13.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Following" Collapsed="true">
+    <Position X="18.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYQAAAAACAIAUAAACAAAAgBQgAAQoAAABQAMiIgAAA=</HashCode>
+      <FileName>Assets\LeanTween\Examples\Scripts\Following.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeneralAdvancedTechniques" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAACABQAAAAAIAAAAAAAAAAIAQAAIAIAAAACA=</HashCode>
+      <FileName>Assets\LeanTween\Examples\Scripts\GeneralAdvancedTechniques.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeneralBasic" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAIAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\LeanTween\Examples\Scripts\GeneralBasic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeneralBasics2d" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIACACAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Assets\LeanTween\Examples\Scripts\GeneralBasics2d.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeneralCameraShake" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAACAAAAAAAAAAAIAAAAAAAAAAAAAAAAgAQAA=</HashCode>
+      <FileName>Assets\LeanTween\Examples\Scripts\GeneralCameraShake.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeneralEasingTypes" Collapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAABAAAAAQAAAAAAAAAACAgBAAAAAAAA=</HashCode>
+      <FileName>Assets\LeanTween\Examples\Scripts\GeneralEasingTypes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeneralEventsListeners" Collapsed="true">
+    <Position X="13.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEAAQAAiAAAAABAAIAAAAAgAAQAAAIIAAAAAAAAEA=</HashCode>
+      <FileName>Assets\LeanTween\Examples\Scripts\GeneralEventsListeners.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeneralSequencer" Collapsed="true">
+    <Position X="15.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAACAAAAAIAAAgAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\LeanTween\Examples\Scripts\GeneralSequencer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeneralSimpleUI" Collapsed="true">
+    <Position X="17" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\LeanTween\Examples\Scripts\GeneralSimpleUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeneralUISpace" Collapsed="true">
+    <Position X="18.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgABAAIACEABAAAAAAAAAIBBAAAgIADAAAAAAAAAhA=</HashCode>
+      <FileName>Assets\LeanTween\Examples\Scripts\GeneralUISpace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LogoCinematic" Collapsed="true">
+    <Position X="20.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAEAAAAAAAACAAAAgAAAAEA=</HashCode>
+      <FileName>Assets\LeanTween\Examples\Scripts\LogoCinematic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PathBezier2d" Collapsed="true">
+    <Position X="11.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAABCAAAAAAAAAAAAAAAAAgQIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\LeanTween\Examples\Scripts\PathBezier2d.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExampleSpline" Collapsed="true">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQEAAAAACAAMABAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\LeanTween\Examples\Scripts\PathSpline.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PathSpline2d" Collapsed="true">
+    <Position X="13.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAABCAAAAAAAAAAAAAAAAAgQIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\LeanTween\Examples\Scripts\PathSpline2d.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PathSplineEndless" Collapsed="true">
+    <Position X="15.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQIBQgABiIAAABAoAAAAAAIACCAAAEAACACgAADAAA=</HashCode>
+      <FileName>Assets\LeanTween\Examples\Scripts\PathSplineEndless.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PathSplinePerformance" Collapsed="true">
+    <Position X="17" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQEBAgAACBAAABAoAAAAAAAAAAAAAAACAACAAWCAAA=</HashCode>
+      <FileName>Assets\LeanTween\Examples\Scripts\PathSplinePerformance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PathSplines" Collapsed="true">
+    <Position X="18.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQEAAAAACAAIAAIAAAAAAAAAAIAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\LeanTween\Examples\Scripts\PathSplines.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PathSplineTrack" Collapsed="true">
+    <Position X="20.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQEBAgAQCAAAABAIAAAAAAAAAAAAAAAAAACAAACAAA=</HashCode>
+      <FileName>Assets\LeanTween\Examples\Scripts\PathSplineTrack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestingZLegacy" Collapsed="true">
+    <Position X="17" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>Km4IABAAASCAMAQAACQAQSUIgQAQAEAAAgSBAggAgEA=</HashCode>
+      <FileName>Assets\LeanTween\Examples\Scripts\TestingZLegacy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestingZLegacyExt" Collapsed="true">
+    <Position X="18.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>Km4IABAAASCAMAQAACQAQSUIgQAQAEAAAgSBAggAgEA=</HashCode>
+      <FileName>Assets\LeanTween\Examples\Scripts\TestingZLegacyExt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LeanAudioStream" Collapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAEAAAAAIAAAAAAAgAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\LeanTween\Framework\LeanAudio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LeanAudio" Collapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAACAIAFAAAAAAAEAAACAIQABBAIAAAgRAAA=</HashCode>
+      <FileName>Assets\LeanTween\Framework\LeanAudio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LeanAudioOptions" Collapsed="true">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAIACAEQAAAAIAgCCARQAAACIBQACAAAAA=</HashCode>
+      <FileName>Assets\LeanTween\Framework\LeanAudio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LeanSmooth" Collapsed="true">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAABAAAAAAAAAACBAAAA=</HashCode>
+      <FileName>Assets\LeanTween\Framework\LeanSmooth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LeanTester" Collapsed="true">
+    <Position X="13.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAEAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\LeanTween\Framework\LeanTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LeanTest" Collapsed="true">
+    <Position X="11.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAEAAAAgAAAACAeAAAEAAAAAAAAAACQAAAMAA=</HashCode>
+      <FileName>Assets\LeanTween\Framework\LeanTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LeanTween" Collapsed="true">
+    <Position X="15.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>zORwlTCVN2GmJbaHIdRxXwECMxTVVCK0JQFXCzQ3Iwc=</HashCode>
+      <FileName>Assets\LeanTween\Framework\LeanTween.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LTUtility" Collapsed="true">
+    <Position X="18.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\LeanTween\Framework\LeanTween.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LTBezier" Collapsed="true">
+    <Position X="3" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEQCAAAAABAAAAECAAEAAAAAAAAAgQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\LeanTween\Framework\LeanTween.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LTBezierPath" Collapsed="true">
+    <Position X="4.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABGAACAAAAAAAAAgEACEAEAAEAAQMAAQBAAAAQAAAA=</HashCode>
+      <FileName>Assets\LeanTween\Framework\LeanTween.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LTSpline" Collapsed="true">
+    <Position X="17" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAEMACgACBAAAAAgAIIFAEQAEAAQEIAQBAAAACAACA=</HashCode>
+      <FileName>Assets\LeanTween\Framework\LeanTween.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LTRect" Collapsed="true">
+    <Position X="13.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQgABAsBIBBgQYEQCDCIAAAAYAFAgOAAQR4AAAIAgQ=</HashCode>
+      <FileName>Assets\LeanTween\Framework\LeanTween.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LTEvent" Collapsed="true">
+    <Position X="10" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAgA=</HashCode>
+      <FileName>Assets\LeanTween\Framework\LeanTween.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LTGUI" Collapsed="true">
+    <Position X="11.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAQACEEAAAAIBAAIAgQAEAIEEEQAgKAggABAwAEAAA=</HashCode>
+      <FileName>Assets\LeanTween\Framework\LeanTween.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LeanTweenExt" Collapsed="true">
+    <Position X="17" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAAAgAABACoBGBEAhAiIBhQAPgIgBAAAAgEDAAAgACA=</HashCode>
+      <FileName>Assets\LeanTween\Framework\LeanTweenExt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LTDescr" Collapsed="true">
+    <Position X="6.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>2XB/hrL3bibH59d1Z+tG780yZta5b7d+hbzTvxa+70c=</HashCode>
+      <FileName>Assets\LeanTween\Framework\LTDescr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LTDescrOptional" Collapsed="true">
+    <Position X="8.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAgECGAAoAAyoAAAkDRBAAAABAAACCAIAAAAAAAAE=</HashCode>
+      <FileName>Assets\LeanTween\Framework\LTDescrOptional.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LTSeq" Collapsed="true">
+    <Position X="15.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQIAEAABAAAAAAAJAAAEUgAAAAAMCgAEQAAAAAgA=</HashCode>
+      <FileName>Assets\LeanTween\Framework\LTSeq.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PauseMenu" Collapsed="true">
+    <Position X="7" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQgAAAAACAIgIAQACAAAAIAAAAAAAAAgAAACAgAAIA=</HashCode>
+      <FileName>Assets\PauseMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Deslizamiento" Collapsed="true">
+    <Position X="20.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAAAAAACEAAAAAAAAAAAAACAAIAAAAEAAAEA=</HashCode>
+      <FileName>Assets\PuzleDeslizante\Deslizamiento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pieza" Collapsed="true">
+    <Position X="7" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAAgAAAAQACHACAACAAAAAAAACAAAAAIwEAAAEA=</HashCode>
+      <FileName>Assets\PuzleDeslizante\Pieza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PruebaDeslizar" Collapsed="true">
+    <Position X="6.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAACAACEAAAAAAAAAAAAACAAAAAAAEAAAEA=</HashCode>
+      <FileName>Assets\PuzleDeslizante\PruebaDeslizar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slide" Collapsed="true">
+    <Position X="20.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAAAAAAASEQAAAAAABAGAAACAAAAAAwEAAAEA=</HashCode>
+      <FileName>Assets\PuzleDeslizante\Slide.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Restart" Collapsed="true">
+    <Position X="11.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Assets\Restart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScriptPruebaTeclaE" Collapsed="true">
+    <Position X="15.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ScriptPruebaTeclaE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Settings" Collapsed="true">
+    <Position X="17" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slide2" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IACEAAAAAAAIAACAAABAAAAAAAAAAACAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Slide2.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SliderProgressController" Collapsed="true">
+    <Position X="4.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAQQEBAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Assets\SliderProgressController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MobileDisableAutoSwitchControls" Collapsed="true">
+    <Position X="20.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIVirtualButton" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCAAAAAAgAIAABAAAAAAgAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UIVirtualJoystick" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACJAAAAACAIAAAAAIBACAQAIBABAEAAABAgAGAAIAA=</HashCode>
+      <FileName>Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UIVirtualTouchZone" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBAAAAAiAIAAAAAIBACAAAABERgEAAABAgIGAAMAA=</HashCode>
+      <FileName>Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BasicRigidBodyPush" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAQAAAAAgAQAA=</HashCode>
+      <FileName>Assets\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tactilInsEsp" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gACAAAAAACAIABAAACAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\tactilInsEsp.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TriggerAnimationComplete" Collapsed="true">
+    <Position X="1.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\TriggerAnimationComplete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Readme" Collapsed="true">
+    <Position X="10" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAQAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\TutorialInfo\Scripts\Readme.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PantallaSeleccion" Collapsed="true">
+    <Position X="8.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>okIgwAIAHCBkEAgCAEAIAAAACIABAEYAoggAAAIAAQA=</HashCode>
+      <FileName>Assets\UI_Icons\PantallaInicio\PantallaSeleccion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI_Inicio" Collapsed="true">
+    <Position X="7" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAQAAAAAIAAAAAAAAACIAAAgAAAATAA=</HashCode>
+      <FileName>Assets\UI_Inicio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VolumeSettings" Collapsed="true">
+    <Position X="13.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAGCAEAAAAAAAAAAAAAAAAAAAAIAAAAAAAAQA=</HashCode>
+      <FileName>Assets\VolumeSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WinZone" Collapsed="true">
+    <Position X="15.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAADAAQAAAAgAAAgAAAEEAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\WinZone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialogueSystem.DialogueBaseClass" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Assets\Cronometro\Tutorial\DialogueBaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialogueSystem.DialogueLine" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAgAAAAAABAAAAIAAAEAAEA=</HashCode>
+      <FileName>Assets\Cronometro\Tutorial\DialogueLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DentedPixel.LTExamples.PathBezier" Collapsed="true">
+    <Position X="10" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQEAAAAACAAIAAIAAAAAAAAAAIAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\LeanTween\Examples\Scripts\PathBezier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DentedPixel.LTExamples.TestingUnitTests" Collapsed="true">
+    <Position X="15.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAAAAgCAOAQAAABAAoEgAhIAAAKQQESBAAAQAgAAEA=</HashCode>
+      <FileName>Assets\LeanTween\Examples\Scripts\TestingUnitTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DentedPixel.LeanDummy" Collapsed="true">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\LeanTween\Framework\LeanTween.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityTemplateProjects.SimpleCameraController" Collapsed="true">
+    <Position X="18.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAwgADAQAABAQYJAAAEAAAAEAAAAAAAIECIACAI=</HashCode>
+      <FileName>Assets\Scripts\SimpleCameraController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarterAssets.StarterAssetsInputs" Collapsed="true">
+    <Position X="8.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAEAABAACAAAkAAAAAAABiARAAAAgAAIAJACA=</HashCode>
+      <FileName>Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarterAssets.UICanvasControllerInput" Collapsed="true">
+    <Position X="6.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEAAAAAAAAAAAAAAAAAAAAAAAQAAAAAQAAAAAAg=</HashCode>
+      <FileName>Assets\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarterAssets.ThirdPersonController" Collapsed="true">
+    <Position X="20.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBWFEEIgBaMYAJQ0AMxKJlIAEAAADAAA7AigEFCtuUA=</HashCode>
+      <FileName>Assets\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="TweenAction" Collapsed="true">
+    <Position X="1.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EMYCAACECyAAEFCAAhCAAj4AMAAABJGGCAAQCADBIYI=</HashCode>
+      <FileName>Assets\LeanTween\Framework\LeanTween.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LeanTweenType" Collapsed="true">
+    <Position X="1.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wACAgBABBgQCIQQBAUBARwAAAhQBBAEkBABAARAAAQc=</HashCode>
+      <FileName>Assets\LeanTween\Framework\LeanTween.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LeanProp" Collapsed="true">
+    <Position X="1.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAIAACAAAAAACAQABgAQAAAAA=</HashCode>
+      <FileName>Assets\LeanTween\Framework\LeanTween.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

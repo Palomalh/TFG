@@ -27,72 +27,132 @@ public class Pieza : MonoBehaviour
         rb.isKinematic = true;
         movimientos = 0;
         textoMovimientos.SetText("Movimientos " + movimientos.ToString("F0"));
-
     }
 
     void Update()
     {
-        // Verificar si se hizo clic con el botón izquierdo del ratón.
-        if (Input.GetMouseButtonDown(0))
+        if (Application.platform != RuntimePlatform.Android)
         {
-            if (_winZone.finJuego) return;
-            // Convertir la posición del clic del ratón al mundo del juego.
-            Vector3 clickPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
-            // Verificar si el clic fue en el objeto.
-            if (GetComponent<Collider2D>() == Physics2D.OverlapPoint(clickPos))
+            // Verificar si se hizo clic con el botón izquierdo del ratón.
+            if (Input.GetMouseButtonDown(0))
             {
-                Clicked = true;
+                if (_winZone.finJuego) return;
+                // Convertir la posición del clic del ratón al mundo del juego.
+                Vector3 clickPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-                posIniX = transform.localPosition.x;
-                posIniY = transform.localPosition.y;
+                // Verificar si el clic fue en el objeto.
+                if (GetComponent<Collider2D>() == Physics2D.OverlapPoint(clickPos))
+                {
+                    Clicked = true;
 
-                // Permitir que el objeto responda a fuerzas físicas.
-                rb.isKinematic = false;
+                    posIniX = transform.localPosition.x;
+                    posIniY = transform.localPosition.y;
 
-                // Calcular el desplazamiento del clic con respecto al objeto
-                deltaX = clickPos.x - transform.position.x;
-                deltaY = clickPos.y - transform.position.y;
+                    // Permitir que el objeto responda a fuerzas físicas.
+                    rb.isKinematic = false;
+
+                    // Calcular el desplazamiento del clic con respecto al objeto
+                    deltaX = clickPos.x - transform.position.x;
+                    deltaY = clickPos.y - transform.position.y;
+                }
+            }
+
+            // Verificar si se está moviendo el objeto y si se mantiene pulsado el botón izquierdo del ratón.
+            if (Clicked && move && Input.GetMouseButton(0))
+            {
+                rend = GetComponent<SpriteRenderer>();
+                rend.sortingOrder = sortingOrder;
+                // Convertir la posición del ratón al mundo del juego.
+                Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                // Mover el objeto según el desplazamiento del clic.
+                rb.MovePosition(new Vector2(mousePos.x - deltaX, mousePos.y - deltaY));
+            }
+
+            // Verificar si se ha soltado el botón izquierdo del ratón.
+            if (Input.GetMouseButtonUp(0))
+            {
+                // Indicar que el objeto ya no está siendo clicado.
+                Clicked = false;
+                if (!rb.isKinematic)
+                {
+                    //Redondear la posición para encasillar la pieza en el tablero.
+                    posY = Mathf.Round(transform.localPosition.y);
+                    posX = Mathf.Round(transform.localPosition.x);
+                    if (Mathf.Round(posIniX) != posX || Mathf.Round(posIniY) != posY)
+                    {
+                        movimientos++;
+                        posIniX = posX;
+                        posIniY = posY;
+                        textoMovimientos.SetText("Movimientos " + movimientos.ToString("F0"));
+                    }
+
+                    rb.isKinematic = true;
+                    rend.sortingOrder = sortingOrderStart;
+                    transform.localPosition = new Vector3(posX, posY);
+                }
             }
         }
-
-        // Verificar si se está moviendo el objeto y si se mantiene pulsado el botón izquierdo del ratón.
-        if (Clicked && move && Input.GetMouseButton(0))
+        else
         {
-            rend = GetComponent<SpriteRenderer>();
-            rend.sortingOrder = sortingOrder;
-            // Convertir la posición del ratón al mundo del juego.
-            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            // Mover el objeto según el desplazamiento del clic.
-            rb.MovePosition(new Vector2(mousePos.x - deltaX, mousePos.y - deltaY));
-        }
-
-        // Verificar si se ha soltado el botón izquierdo del ratón.
-        if (Input.GetMouseButtonUp(0))
-        {
-            // Indicar que el objeto ya no está siendo clicado.
-            Clicked = false;
-            if (!rb.isKinematic)
+            Touch touch;
+            // Mismo proceso con el contacto con los dedos con la pantalla
+            if (Input.touchCount > 0)
             {
-                //Redondear la posición para encasillar la pieza en el tablero.
-                posY = Mathf.Round(transform.localPosition.y);
-                posX = Mathf.Round(transform.localPosition.x);
-                if (Mathf.Round(posIniX) != posX || Mathf.Round(posIniY) != posY)
-                {
-                    movimientos++;
-                    posIniX = posX;
-                    posIniY = posY;
-                    textoMovimientos.SetText("Movimientos " + movimientos.ToString("F0"));
+                touch = Input.GetTouch(0);
+                if (_winZone.finJuego) return;
+                
+                Vector3 clickPos = Camera.main.ScreenToWorldPoint(touch.position);
 
+                
+                if (GetComponent<Collider2D>() == Physics2D.OverlapPoint(clickPos))
+                {
+                    Clicked = true;
+
+                    posIniX = transform.localPosition.x;
+                    posIniY = transform.localPosition.y;
+
+                    // Permitir que el objeto responda a fuerzas físicas.
+                    rb.isKinematic = false;
+
+                    // Calcular el desplazamiento del clic con respecto al objeto
+                    deltaX = clickPos.x - transform.position.x;
+                    deltaY = clickPos.y - transform.position.y;
                 }
-                rb.isKinematic = true;
-                rend.sortingOrder = sortingOrderStart;
-                transform.localPosition = new Vector3(posX, posY);
+            }
+
+            if (Clicked && move && Input.touchCount > 0)
+            {
+                touch = Input.GetTouch(0);
+                rend = GetComponent<SpriteRenderer>();
+                rend.sortingOrder = sortingOrder;
+                
+                Vector3 mousePos = Camera.main.ScreenToWorldPoint(touch.position);
+                
+                rb.MovePosition(new Vector2(mousePos.x - deltaX, mousePos.y - deltaY));
+            }
+
+            if (Input.touchCount == 0)
+            {
+                
+                Clicked = false;
+                if (!rb.isKinematic)
+                {
+                    
+                    posY = Mathf.Round(transform.localPosition.y);
+                    posX = Mathf.Round(transform.localPosition.x);
+                    if (Mathf.Round(posIniX) != posX || Mathf.Round(posIniY) != posY)
+                    {
+                        movimientos++;
+                        posIniX = posX;
+                        posIniY = posY;
+                        textoMovimientos.SetText("Movimientos " + movimientos.ToString("F0"));
+                    }
+
+                    rb.isKinematic = true;
+                    rend.sortingOrder = sortingOrderStart;
+                    transform.localPosition = new Vector3(posX, posY);
+                }
             }
         }
     }
-
-  
 }
-
-

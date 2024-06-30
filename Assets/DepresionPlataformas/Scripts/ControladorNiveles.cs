@@ -40,6 +40,7 @@ public class ControladorNiveles : MonoBehaviour
     [SerializeField] private GameObject FinJuegoPanel;
     [SerializeField] private TMP_Text monedasTexto;
 
+    [SerializeField] private GameObject interfazTactil;
 
 
 
@@ -52,13 +53,18 @@ public class ControladorNiveles : MonoBehaviour
 
         //_thirdPersonController = GetComponent<ThirdPersonController>();
         pensamientoDialogo = false;
-        nivelActual = 0;
+        nivelActual = 0;    
         primerDialogo = true;
         tocaSuelo = false;
         player.GetComponent<ThirdPersonController>().MoveSpeed = 0;
         colliders[0] = mapasNiveles[nivelActual].transform.Find("Respawn").GetComponent<BoxCollider>();
         colliders[1] = mapasNiveles[nivelActual].transform.Find("Flag1").GetComponent<BoxCollider>();
         colliders[2] = mapasNiveles[nivelActual].transform.Find("Flag2").GetComponent<BoxCollider>();
+
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            interfazTactil.SetActive(true);
+        }
 
     }
 
